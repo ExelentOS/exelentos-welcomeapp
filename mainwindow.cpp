@@ -6,9 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    this->setStyleSheet("background-color: #414A4C;");
-    system("sudo bash /usr/bin/kpmforever.sh &");
-    system("sudo bash /usr/bin/mountsfs.sh &");
+    this->setStyleSheet("background-color: gray;");
 }
 
 MainWindow::~MainWindow()
@@ -22,9 +20,13 @@ void MainWindow::on_ok_clicked()
 }
 void MainWindow::on_wifi_clicked()
 {
-    system("sudo gparted");
+    system("systemsettings kcm_users");
+}
+void MainWindow::on_time_clicked()
+{
+    system("systemsettings kcm_networkmanagement");
 }
 void MainWindow::on_lang_clicked()
 {
-    system("sudo bash /usr/bin/calamares.sh");
+    system("kwalletmanager5");
 }

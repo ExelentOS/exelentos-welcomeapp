@@ -21,6 +21,7 @@ private slots:
     void on_ok_clicked();
     void on_wifi_clicked();
     void on_lang_clicked();
+    void on_time_clicked();
 
 
 };
