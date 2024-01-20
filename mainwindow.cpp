@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    this->setStyleSheet("background-color: gray;");
+    this->setStyleSheet("background-color: #353935;");
 }
 
 MainWindow::~MainWindow()
@@ -16,6 +16,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_ok_clicked()
 {
     system("rm ~/.config/autostart/welcome.desktop");
+    system("kwalletmanager5 &");
     QApplication::quit();
 }
 void MainWindow::on_wifi_clicked()
@@ -28,5 +29,5 @@ void MainWindow::on_time_clicked()
 }
 void MainWindow::on_lang_clicked()
 {
-    system("kwalletmanager5");
+
 }

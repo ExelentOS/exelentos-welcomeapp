@@ -21,96 +21,6 @@
    <double>10.000000000000000</double>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="wifi">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>370</y>
-      <width>271</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton
-{
-background-color: rgb(16, 92, 255);
-color: rgb(255, 255, 255);
-border-style: outset;
-border-width: 2px;
-border-radius:10px;
-border-color: white;
-}
-QPushButton:hover:!pressed
-{
-  border-color:green;
-}
-
-</string>
-    </property>
-    <property name="text">
-     <string>configure users</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="lang">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>370</y>
-      <width>271</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton
-{
-background-color: rgb(16, 92, 255);
-color: rgb(255, 255, 255);
-border-style: outset;
-border-width: 2px;
-border-radius:10px;
-border-color: white;
-}
-QPushButton:hover:!pressed
-{
-  border-color:green;
-}
-
-</string>
-    </property>
-    <property name="text">
-     <string>configure wallet</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="time">
-    <property name="geometry">
-     <rect>
-      <x>890</x>
-      <y>370</y>
-      <width>271</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton
-{
-background-color: rgb(16, 92, 255);
-color: rgb(255, 255, 255);
-border-style: outset;
-border-width: 2px;
-border-radius:10px;
-border-color: white;
-}
-QPushButton:hover:!pressed
-{
-  border-color:green;
-}
-
-</string>
-    </property>
-    <property name="text">
-     <string>configure WIFI</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="image">
     <property name="geometry">
      <rect>
@@ -171,8 +81,8 @@ QPushButton:hover:!pressed
    <widget class="QLabel" name="stars_3">
     <property name="geometry">
      <rect>
-      <x>1000</x>
-      <y>510</y>
+      <x>1010</x>
+      <y>150</y>
       <width>51</width>
       <height>61</height>
      </rect>
@@ -190,8 +100,8 @@ QPushButton:hover:!pressed
    <widget class="QLabel" name="stars_4">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>290</y>
+      <x>160</x>
+      <y>460</y>
       <width>51</width>
       <height>61</height>
      </rect>
@@ -228,8 +138,8 @@ QPushButton:hover:!pressed
    <widget class="QLabel" name="stars_6">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>510</y>
+      <x>70</x>
+      <y>350</y>
       <width>51</width>
       <height>61</height>
      </rect>
@@ -247,8 +157,8 @@ QPushButton:hover:!pressed
    <widget class="QLabel" name="stars_7">
     <property name="geometry">
      <rect>
-      <x>1030</x>
-      <y>230</y>
+      <x>1200</x>
+      <y>370</y>
       <width>51</width>
       <height>61</height>
      </rect>
@@ -263,49 +173,11 @@ QPushButton:hover:!pressed
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="stars_8">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>80</y>
-      <width>231</width>
-      <height>111</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="welcome.qrc">:/images/shooting.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="stars_9">
-    <property name="geometry">
-     <rect>
-      <x>950</x>
-      <y>50</y>
-      <width>181</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="welcome.qrc">:/images/rocket.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>470</y>
+      <y>410</y>
       <width>291</width>
       <height>51</height>
      </rect>
@@ -321,7 +193,7 @@ QPushButton:hover:!pressed
     <property name="geometry">
      <rect>
       <x>440</x>
-      <y>510</y>
+      <y>450</y>
       <width>301</width>
       <height>18</height>
      </rect>
@@ -336,14 +208,14 @@ QPushButton:hover:!pressed
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>530</y>
-      <width>501</width>
+      <x>250</x>
+      <y>470</y>
+      <width>731</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string># thank you for choosing ExelentOS</string>
+     <string># thank you for choosing ExelentOS(this is still beta btw)</string>
     </property>
     <property name="textFormat">
      <enum>Qt::MarkdownText</enum>
@@ -352,8 +224,8 @@ QPushButton:hover:!pressed
    <widget class="QPushButton" name="ok">
     <property name="geometry">
      <rect>
-      <x>1150</x>
-      <y>540</y>
+      <x>1160</x>
+      <y>510</y>
       <width>80</width>
       <height>26</height>
      </rect>
@@ -379,23 +251,6 @@ QPushButton:hover:!pressed
      <string>exit</string>
     </property>
    </widget>
-   <zorder>image</zorder>
-   <zorder>wifi</zorder>
-   <zorder>lang</zorder>
-   <zorder>time</zorder>
-   <zorder>stars</zorder>
-   <zorder>stars_2</zorder>
-   <zorder>stars_3</zorder>
-   <zorder>stars_4</zorder>
-   <zorder>stars_5</zorder>
-   <zorder>stars_6</zorder>
-   <zorder>stars_7</zorder>
-   <zorder>stars_8</zorder>
-   <zorder>stars_9</zorder>
-   <zorder>label</zorder>
-   <zorder>label_2</zorder>
-   <zorder>label_3</zorder>
-   <zorder>ok</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -403,12 +258,12 @@ QPushButton:hover:!pressed
      <x>0</x>
      <y>0</y>
      <width>1280</width>
-     <height>25</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuwelcome_to_exelent">
     <property name="title">
-     <string>welcome to exelent</string>
+     <string>welcome to exelentOS</string>
     </property>
    </widget>
    <addaction name="menuwelcome_to_exelent"/>
