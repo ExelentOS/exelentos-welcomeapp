@@ -89,7 +89,8 @@ Window {
             }
             anchors.topMargin: 20 // Margin above the button
             onClicked: {
-       mainApp.startJourney();
+                mainApp.startJourney();
+                mainApp.openNewQml();
             }
         }
     }

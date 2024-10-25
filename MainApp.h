@@ -13,6 +13,7 @@ public:
 public slots:
     void openNewQml();
     void startJourney();
+    void closeCurrentWindow();
 
 private:
     QQmlApplicationEngine *m_engine; // Store the engine pointer

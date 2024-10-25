@@ -1,17 +1,15 @@
-import QtQuick
-import QtQuick.Controls 2
+import QtQuick 2.0
+import QtQuick.Controls 2.0
 
-Page {
-    id: newPage
-    Rectangle {
-        width: 640
-        height: 480
-        color: "#db000000"
-        Text {
-            anchors.centerIn: parent
-            color: "#ffffff"
-            text: "Welcome to the new screen!"
-            font.pixelSize: 50
-        }
+ApplicationWindow {
+    visible: true
+    width: 640
+    height: 480
+    title: "Install Screen"
+
+    Text {
+        text: "Welcome to the Installation Screen"
+        anchors.centerIn: parent
+        font.pointSize: 20
     }
 }
