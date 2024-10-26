@@ -1,0 +1,10 @@
+-I
+/home/y3e/exelentos-welcome/build/Desktop-Release
+-I
+/usr/lib/qt6/qml
+--resource
+/home/y3e/exelentos-welcome/build/Desktop-Release/.qt/rcc/qmake_exelentos-welcome.qrc
+--resource
+/home/y3e/exelentos-welcome/build/Desktop-Release/.qt/rcc/appexelentos-welcome_raw_qml_0.qrc
+--module
+exelentos-welcome

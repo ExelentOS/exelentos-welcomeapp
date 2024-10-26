@@ -1,0 +1,66 @@
+[
+    {
+        "classes": [
+            {
+                "className": "CommandExecutor",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "command",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "executeCommand",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "CommandExecutor",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CommandExecutor.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "MainApp",
+                "object": true,
+                "qualifiedClassName": "MainApp",
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "openNewQml",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "startJourney",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "closeCurrentWindow",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "MainApp.h",
+        "outputRevision": 68
+    }
+]

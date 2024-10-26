@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>exelentos-logo-dark.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>install.qml</file>
+    </qresource>
+</RCC>

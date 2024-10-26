@@ -1,0 +1,2 @@
+/home/y3e/exelentos-welcome/build/Desktop-Debug/appexelentos-welcome_autogen/include/../EWIEGA46WW/moc_CommandExecutor.cpp.json
+/home/y3e/exelentos-welcome/build/Desktop-Debug/appexelentos-welcome_autogen/include/../EWIEGA46WW/moc_MainApp.cpp.json
