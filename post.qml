@@ -268,6 +268,42 @@ Window {
                          console.log("Command output:\n" + output);
                      }
                  }
+                 Button {
+                     width: 300
+                     height: 50
+                     Text { color: "#ffffff"; text: "Update aur packages"; anchors.centerIn: parent }
+                     background: Rectangle {
+                         implicitWidth: 100
+                         implicitHeight: 25
+                         border.width: control.activeFocus ? 2 : 1
+                         border.color: "#888"
+                         radius: 4
+                         gradient: Gradient {
+                             GradientStop { position: 0 ; color: control.pressed ? "#ccc" : "#eee" }
+                             GradientStop { position: 1 ; color: control.pressed ? "#aaa" : "#ccc" }
+                         }
+                         MouseArea {
+                             anchors.fill: parent
+                             cursorShape: Qt.PointingHandCursor
+
+                             onEntered: {
+                                 parent.border.color = "purple"; // Change border color on hover
+                             }
+
+                             onExited: {
+                                 parent.border.color = "#888"; // Reset border color when not hovered
+                             }
+
+                             onClicked: {
+                                 customButton.textColor = "purple"; // Change text color on click
+                             }
+                         }
+                     }
+                     onClicked: {
+                        var output = commandExecutor.executeCommand("konsole -e 'sudo bash -c \'yay -Syu --noconfirm\''");
+                        console.log("Command output:\n" + output);
+                     }
+                 }
 
 
                  // Add more items as needed
@@ -557,85 +593,6 @@ Window {
              }
         }
 
-    }
-    Row {
-        spacing: 10
-        anchors.bottom: parent.bottom
-        anchors.right: parent.right
-        anchors.bottomMargin: 10
-        anchors.rightMargin: 10
-
-        Button {
-            text: "Close"
-            background: Rectangle {
-                implicitWidth: 100
-                implicitHeight: 25
-                border.width: control.activeFocus ? 2 : 1
-                border.color: "#888"
-                radius: 4
-                gradient: Gradient {
-                    GradientStop { position: 0 ; color: control.pressed ? "#ccc" : "#eee" }
-                    GradientStop { position: 1 ; color: control.pressed ? "#aaa" : "#ccc" }
-                }
-                MouseArea {
-                    anchors.fill: parent
-                    cursorShape: Qt.PointingHandCursor
-
-                    onEntered: {
-                        parent.border.color = "purple"; // Change border color on hover
-                    }
-
-                    onExited: {
-                        parent.border.color = "#888"; // Reset border color when not hovered
-                    }
-
-                    onClicked: {
-                        customButton.textColor = "purple"; // Change text color on click
-                    }
-                }
-            }
-            onClicked: {
-                Qt.quit()  // Or other close function
-            }
-        }
-
-        Button {
-            text: "Disable and Close"
-            background: Rectangle {
-                implicitWidth: 100
-                implicitHeight: 25
-                border.width: control.activeFocus ? 2 : 1
-                border.color: "#888"
-                radius: 4
-                gradient: Gradient {
-                    GradientStop { position: 0 ; color: control.pressed ? "#ccc" : "#eee" }
-                    GradientStop { position: 1 ; color: control.pressed ? "#aaa" : "#ccc" }
-                }
-                MouseArea {
-                    anchors.fill: parent
-                    cursorShape: Qt.PointingHandCursor
-
-                    onEntered: {
-                        parent.border.color = "purple"; // Change border color on hover
-                    }
-
-                    onExited: {
-                        parent.border.color = "#888"; // Reset border color when not hovered
-                    }
-
-                    onClicked: {
-                        customButton.textColor = "purple"; // Change text color on click
-                    }
-                }
-            }
-            onClicked: {
-                // Implement disable functionality here
-                var output = commandExecutor.executeCommand("rm ~/.config/autostart/welcome.desktop");
-                console.log("Command output:\n" + output);
-                Qt.quit()  // Or other close function
-
-            }
-        }
     }
 
 }
