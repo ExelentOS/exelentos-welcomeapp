@@ -8,7 +8,7 @@ class MainApp : public QObject {
     Q_OBJECT
 
 public:
-    explicit MainApp(QQmlApplicationEngine *engine, QObject *parent = nullptr);
+    explicit MainApp(QQmlApplicationEngine *engine, bool isoArgument, QObject *parent = nullptr);
 
 public slots:
     void openNewQml();
@@ -17,6 +17,7 @@ public slots:
 
 private:
     QQmlApplicationEngine *m_engine; // Store the engine pointer
+    bool m_openInstallQml;
 };
 
 #endif // MAINAPP_H
