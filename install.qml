@@ -126,13 +126,17 @@ Window {
                                  customButton.textColor = "purple"; // Change text color on click
                              }
                          }
-                     }
+		 }
+		 onClicked: {
+                 	var output = commandExecutor.executeCommand("calamares_polkit");
+                 	console.log("Command output:\n" + output);
+                 }
 
                  }
                  Button {
                      width: 300
                      height: 50
-                     Text { color: "#ffffff"; text: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#ffffff;\">Launch Partition tool</span></p></body></html>"; textFormat: Text.RichText; anchors.centerIn: parent }
+                     Text { color: "#ffffff"; text: "Launch Partition tool"; textFormat: Text.RichText; anchors.centerIn: parent }
                      background: Rectangle {
                          implicitWidth: 100
                          implicitHeight: 25
