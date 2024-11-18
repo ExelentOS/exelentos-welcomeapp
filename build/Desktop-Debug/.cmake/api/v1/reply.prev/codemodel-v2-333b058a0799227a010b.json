@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-80abb494e84935247443.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "exelentos-welcome",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-6244590341d5280681b5.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-d066c4e9b750a7ba2014.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-195f2e2b419bb5470657.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-cf7c6deb96fcac36d827.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome-Debug-840e5f2665975c8da090.json",
+					"name" : "appexelentos-welcome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_autogen-Debug-bb23e9521951ac037413.json",
+					"name" : "appexelentos-welcome_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_autogen_timestamp_deps-Debug-68ca6ba3c5002c4f16de.json",
+					"name" : "appexelentos-welcome_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_qmlimportscan-Debug-2c7db7b4c8cd374db85e.json",
+					"name" : "appexelentos-welcome_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_qmllint-Debug-991515cdd6c1e4018492.json",
+					"name" : "appexelentos-welcome_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_qmllint_json-Debug-dc21baad8482c01ff124.json",
+					"name" : "appexelentos-welcome_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_qmllint_module-Debug-10d929bd0170f8478c64.json",
+					"name" : "appexelentos-welcome_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_qmltyperegistration-Debug-c55934f7b96c99c25697.json",
+					"name" : "appexelentos-welcome_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appexelentos-welcome_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appexelentos-welcome_tooling-Debug-d366eccc6d7e27d8e693.json",
+					"name" : "appexelentos-welcome_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_resources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_resources-Debug-4cb04db185703c62d97e.json",
+					"name" : "generate_resources",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/y3e/exelentos-welcome/build/Desktop-Debug",
+		"source" : "/home/y3e/exelentos-welcome"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

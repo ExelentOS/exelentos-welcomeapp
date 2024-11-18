@@ -1,0 +1,12 @@
+--bare
+-I
+/home/y3e/exelentos-welcome/build/Desktop-Debug
+-I
+/usr/qml
+--resource
+/home/y3e/exelentos-welcome/build/Desktop-Debug/.qt/rcc/qmake_exelentos-welcome.qrc
+--resource
+/home/y3e/exelentos-welcome/build/Desktop-Debug/.qt/rcc/appexelentos-welcome_raw_qml_0.qrc
+/home/y3e/exelentos-welcome/resources/Main.qml
+--json
+/home/y3e/exelentos-welcome/build/Desktop-Debug/appexelentos-welcome_qmllint.json

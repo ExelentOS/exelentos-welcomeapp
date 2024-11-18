@@ -11,7 +11,7 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
 qt_standard_project_setup(REQUIRES 6.5)
 
 # Specify the QRC file path
-set(QRC_FILE "${CMAKE_CURRENT_SOURCE_DIR}/resources.qrc")
+set(QRC_FILE "${CMAKE_CURRENT_SOURCE_DIR}/resources/resources.qrc")
 
 # Check if the QRC file exists
 if(NOT EXISTS ${QRC_FILE})
@@ -19,21 +19,30 @@ if(NOT EXISTS ${QRC_FILE})
 endif()
 
 # Add resources from QRC file
-qt_add_resources(appexelentos-welcome "resources" PREFIX "" FILES ${QRC_FILE})
+qt_add_resources(appexelentos-welcome "resources/resources.qrc" PREFIX "" FILES ${QRC_FILE})
+
+add_custom_target(
+    generate_resources
+    COMMAND rcc ${QRC_FILE} -o ${CMAKE_CURRENT_SOURCE_DIR}/src/resources.cpp
+    DEPENDS ${QRC_FILE}
+)
+
 
 # Define the executable target
 qt_add_executable(appexelentos-welcome
-    main.cpp
-    MainApp.cpp
-    MainApp.h
-    CommandExecutor.h
+    src/main.cpp
+    src/MainApp.cpp
+    src/MainApp.h
+    src/CommandExecutor.h
+    ${appexelentos-welcome_resources}
 )
 
+add_dependencies(appexelentos-welcome generate_resources)
 # Add QML module, ensuring `SOURCES` is not repeated
 qt_add_qml_module(appexelentos-welcome
     URI exelentos-welcome
     VERSION 1.0
-    QML_FILES Main.qml
+    QML_FILES resources/Main.qml
 )
 
 # Set bundle properties for macOS and Windows
@@ -43,7 +52,6 @@ set_target_properties(appexelentos-welcome PROPERTIES
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
-
 # Link Qt6 libraries to the target
 target_link_libraries(appexelentos-welcome
     PRIVATE Qt6::Quick
@@ -56,3 +64,4 @@ install(TARGETS appexelentos-welcome
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+

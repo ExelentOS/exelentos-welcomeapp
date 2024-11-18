@@ -1,0 +1,5 @@
+module exelentos-welcome
+typeinfo appexelentos-welcome.qmltypes
+prefer :/qt/qml/exelentos-welcome/
+Main 1.0 resources/Main.qml
+

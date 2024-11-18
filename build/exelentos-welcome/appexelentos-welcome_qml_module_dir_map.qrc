@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/exelentos-welcome">/home/y3e/exelentos-welcome/build/exelentos-welcome</file>
+
+  </qresource>
+</RCC>

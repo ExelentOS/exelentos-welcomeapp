@@ -1,0 +1,2 @@
+/home/y3e/exelentos-welcome/build/appexelentos-welcome_autogen/include/../UVLADIE3JM/moc_CommandExecutor.cpp.json
+/home/y3e/exelentos-welcome/build/appexelentos-welcome_autogen/include/../UVLADIE3JM/moc_MainApp.cpp.json

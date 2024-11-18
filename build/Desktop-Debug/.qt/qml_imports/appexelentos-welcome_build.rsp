@@ -1,0 +1,14 @@
+-rootPath
+/home/y3e/exelentos-welcome
+-cmake-output
+-output-file
+/home/y3e/exelentos-welcome/build/Desktop-Debug/.qt/qml_imports/appexelentos-welcome_build.cmake
+-importPath
+/home/y3e/exelentos-welcome/build/Desktop-Debug/exelentos-welcome
+-importPath
+/home/y3e/exelentos-welcome/build/Desktop-Debug
+-importPath
+/usr/qml
+-qrcFiles
+/home/y3e/exelentos-welcome/build/Desktop-Debug/.qt/rcc/qmake_exelentos-welcome.qrc
+/home/y3e/exelentos-welcome/build/Desktop-Debug/.qt/rcc/appexelentos-welcome_raw_qml_0.qrc

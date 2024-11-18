@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appexelentos-welcome_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_exelentos-welcome.cpp"
+  ".rcc/qmlcache/appexelentos-welcome_qmlcache_loader.cpp"
+  ".rcc/qmlcache/appexelentos-welcome_resources/Main_qml.cpp"
+  "CMakeFiles/appexelentos-welcome_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appexelentos-welcome_autogen.dir/ParseCache.txt"
+  "appexelentos-welcome_autogen"
+  "CMakeFiles/appexelentos-welcome.dir/appexelentos-welcome_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/appexelentos-welcome_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/appexelentos-welcome.dir/appexelentos-welcome_qmltyperegistrations.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/appexelentos-welcome_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/appexelentos-welcome.dir/build/.qt/rcc/qrc_appexelentos-welcome_raw_qml_0.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/build/.qt/rcc/qrc_appexelentos-welcome_raw_qml_0.cpp.o.d"
+  "CMakeFiles/appexelentos-welcome.dir/build/.qt/rcc/qrc_qmake_exelentos-welcome.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/build/.qt/rcc/qrc_qmake_exelentos-welcome.cpp.o.d"
+  "CMakeFiles/appexelentos-welcome.dir/build/.rcc/qmlcache/appexelentos-welcome_qmlcache_loader.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/build/.rcc/qmlcache/appexelentos-welcome_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/appexelentos-welcome.dir/build/.rcc/qmlcache/appexelentos-welcome_resources/Main_qml.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/build/.rcc/qmlcache/appexelentos-welcome_resources/Main_qml.cpp.o.d"
+  "CMakeFiles/appexelentos-welcome.dir/src/MainApp.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/src/MainApp.cpp.o.d"
+  "CMakeFiles/appexelentos-welcome.dir/src/main.cpp.o"
+  "CMakeFiles/appexelentos-welcome.dir/src/main.cpp.o.d"
+  "appexelentos-welcome"
+  "appexelentos-welcome.pdb"
+  "appexelentos-welcome_autogen/mocs_compilation.cpp"
+  "appexelentos-welcome_autogen/timestamp"
+  "appexelentos-welcome_qmltyperegistrations.cpp"
+  "exelentos-welcome/appexelentos-welcome.qmltypes"
+  "meta_types/appexelentos-welcome_json_file_list.txt"
+  "meta_types/appexelentos-welcome_json_file_list.txt.timestamp"
+  "meta_types/qt6appexelentos-welcome_metatypes.json"
+  "meta_types/qt6appexelentos-welcome_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appexelentos-welcome.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
