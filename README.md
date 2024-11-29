@@ -1,5 +1,7 @@
 # ExelentOS Welcome App
 
+[![Maintenance](https://img.shields.io/maintenance/yes/2024.svg)]()
+
 The **ExelentOS Welcome App** is a core component of the **ExelentOS** operating system. It provides a streamlined and friendly interface to help users get started with their new system. The app is designed to simplify configuration, introduce essential tools, and connect users with resources.
 
 ---
