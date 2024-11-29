@@ -70,3 +70,6 @@ Please follow instructions on Contributing.md.
 # Acknowledgments
 
 Thank you to the open-source contributors and the ExelentOS community for their support in making this project possible.
+
+![bg](https://github.com/user-attachments/assets/b93e9d83-5967-4ebe-84b4-9490f75e5042)
+
